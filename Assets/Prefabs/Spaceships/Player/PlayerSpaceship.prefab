@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 6910651213156479313}
   - component: {fileID: 6910651213156479314}
   - component: {fileID: 6910651213156479312}
+  - component: {fileID: 7561773100487400696}
   - component: {fileID: 2540544495500081184}
   m_Layer: 0
   m_Name: PlayerSpaceship
@@ -144,6 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b16c62f91b206fd4f9af7a858af1fe9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: 0
 --- !u!114 &6910651213156479314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +175,19 @@ MonoBehaviour:
   _weapons:
   - {fileID: 6910651213495973518}
   - {fileID: 8983208217998367586}
+--- !u!114 &7561773100487400696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6910651213156479279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad6e3ffdf79f6f14ca560b1f73331eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _representation: {fileID: 2352596708668287078}
 --- !u!61 &2540544495500081184
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -238,11 +253,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6910651214060967067}
     m_Modifications:
-    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
-        type: 3}
-      propertyPath: m_Name
-      value: LaserGun2
-      objectReference: {fileID: 0}
     - target: {fileID: 2543782742246006013, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -298,6 +308,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
+        type: 3}
+      propertyPath: m_Name
+      value: LaserGun2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcb1bf35503a2d340ab0e1e9d82bca8b, type: 3}
 --- !u!4 &8983208217998367589 stripped
@@ -325,11 +340,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6910651214060967067}
     m_Modifications:
-    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
-        type: 3}
-      propertyPath: m_Name
-      value: LaserGun1
-      objectReference: {fileID: 0}
     - target: {fileID: 2543782742246006013, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -384,6 +394,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
+        type: 3}
+      propertyPath: m_Name
+      value: LaserGun1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcb1bf35503a2d340ab0e1e9d82bca8b, type: 3}

@@ -45,8 +45,8 @@ GameObject:
   - component: {fileID: 590599124999967756}
   - component: {fileID: 590599124999967758}
   - component: {fileID: 7280752513643992934}
+  - component: {fileID: 821492182382988122}
   - component: {fileID: 5659333393718678246}
-  - component: {fileID: 1387087252038566574}
   m_Layer: 0
   m_Name: EnemySpaceship
   m_TagString: Untagged
@@ -148,6 +148,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &821492182382988122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590599124999967857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8b8e6439e35f7478b42f7bf1c8f9cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _representation: {fileID: 1507206475712916754}
 --- !u!61 &5659333393718678246
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -174,19 +187,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.84, y: 4.33}
   m_EdgeRadius: 0
---- !u!114 &1387087252038566574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590599124999967857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4d380b7972717e499a083ffbf061981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _representation: {fileID: 1507206475712916754}
 --- !u!1 &1507206475712916752
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,11 +273,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590599124562096581}
     m_Modifications:
-    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
-        type: 3}
-      propertyPath: m_Name
-      value: LaserGun1
-      objectReference: {fileID: 0}
     - target: {fileID: 2543782742246006013, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -332,6 +327,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543782742246006012, guid: dcb1bf35503a2d340ab0e1e9d82bca8b,
+        type: 3}
+      propertyPath: m_Name
+      value: LaserGun1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcb1bf35503a2d340ab0e1e9d82bca8b, type: 3}

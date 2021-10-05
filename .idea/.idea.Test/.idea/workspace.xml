@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8db167c1-27a3-4f11-9556-c0358530f666" name="Default Changelist" comment="" />
+    <list default="true" id="8db167c1-27a3-4f11-9556-c0358530f666" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +38,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/WeaponSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1EC6421-AAD8-403C-A580-448FBED7C0ED/ec/6eae1fdf/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderDestructor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/GameAreaHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamageDealer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,12 +58,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/CustomWeapon/LaserGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/FireSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/GameAreaHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/MovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderDestructor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamagable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Weapon.cs" />
@@ -45,8 +68,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/ISpaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/ShipController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/PlayerShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderDestructor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/GameAreaHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" />
       </list>
     </option>
   </component>
@@ -116,8 +145,30 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="516" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1633461713502">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="516" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1633461713502" />
+    <state x="503" y="142" key="RollbackChangesDialog" timestamp="1633457182647">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="503" y="142" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1633457182647" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
