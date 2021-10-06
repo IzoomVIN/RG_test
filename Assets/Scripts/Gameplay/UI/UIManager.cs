@@ -9,16 +9,15 @@ namespace Gameplay.UI
         [SerializeField] private Text hpField;
 
         
-        public void SetPoints(string value)
+        public void SetPoints(float value)
         {
-            Debug.Log($"set points {value}");
-            pointsField.text = value;
+            pointsField.text = value.ToString("0");
         }
         
         
-        public void SetHp(string value)
+        public void SetHp(float value)
         {
-            hpField.text = value;
+            hpField.text = value.ToString("0");
         }
     }
 }

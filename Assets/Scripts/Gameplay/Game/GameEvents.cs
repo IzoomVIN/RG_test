@@ -5,15 +5,15 @@ using UnityEngine.Events;
 namespace Gameplay.Game
 {
     [Serializable]
-    public class StringEvent : UnityEvent<string>
+    public class FloatEvent : UnityEvent<float>
     {
     }
 
     public class GameEvents : MonoBehaviour
     {
         [Header("UI events")]
-        [SerializeField] public StringEvent UpdatePoints;
-        [SerializeField] public StringEvent UpdateHp;
+        [SerializeField] public FloatEvent UpdatePoints;
+        [SerializeField] public FloatEvent UpdateHp;
         [SerializeField] public UnityEvent GameOverEvent;
     }
 }
