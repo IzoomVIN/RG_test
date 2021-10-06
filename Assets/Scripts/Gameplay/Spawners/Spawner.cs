@@ -5,23 +5,14 @@ using Random = UnityEngine.Random;
 
 namespace Gameplay.Spawners
 {
-    public class Spawner : MonoBehaviour
+    public abstract class Spawner : MonoBehaviour
     {
-
-        [SerializeField]
-        private GameObject _object;
-        
-        [SerializeField]
-        private Transform _parent;
-        
-        [SerializeField]
-        private Vector2 _spawnPeriodRange;
-        
-        [SerializeField]
-        private Vector2 _spawnDelayRange;
-
-        [SerializeField]
-        private bool _autoStart = true;
+        [Header("Spawn properties")]
+        [SerializeField] private GameObject _object;
+        [SerializeField] private Transform _parent;
+        [SerializeField] private Vector2 _spawnPeriodRange;
+        [SerializeField] private Vector2 _spawnDelayRange;
+        [SerializeField] private bool _autoStart = true;
 
 
         private void Start()
@@ -48,9 +39,12 @@ namespace Gameplay.Spawners
             
             while (true)
             {
-                Instantiate(_object, transform.position, transform.rotation, _parent);
+                var obj = Instantiate(_object, transform.position, transform.rotation, _parent);
+                InitObject(obj);
                 yield return new WaitForSeconds(Random.Range(_spawnPeriodRange.x, _spawnPeriodRange.y));
             }
         }
+
+        protected abstract void InitObject(GameObject obj);
     }
 }

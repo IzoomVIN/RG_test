@@ -23,10 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db167c1-27a3-4f11-9556-c0358530f666" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/EnemySpaceship.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/EnemySpaceship.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/PlayerSpaceship.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/PlayerSpaceship.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Player/PlayerSpaceship.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Player/PlayerSpaceship.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spawners/Spawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spawners/Spawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Projectiles/LaserBeam.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/Projectiles/LaserBeam.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +51,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/WeaponSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1EC6421-AAD8-403C-A580-448FBED7C0ED/ec/6eae1fdf/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/ShipController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/34/ecfd51bb/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1EC6421-AAD8-403C-A580-448FBED7C0ED/69/247e8122/UnityEvent`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/GameAreaHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8F9A7EA3-47A4-4FFD-AD6C-91B550598CCD/c0/d8cd1297/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamageDealer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1EC6421-AAD8-403C-A580-448FBED7C0ED/35/618d618b/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamagable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/PlayerShipController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E1EC6421-AAD8-403C-A580-448FBED7C0ED/f2/b98ebc83/InvokableCallList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/ISpaceship.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,24 +74,38 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/CustomWeapon/LaserGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/FireSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/MovementSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamagable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Weapon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/WeaponSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/ISpaceship.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/ShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/PlayerShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderDestructor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/GameAreaHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/OutOfBorderInspector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderRegulator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Helpers/CustomHelpers/OutOfBorderDestructor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/UI/UIFunctional.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/LivecycleSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/ISpaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/LiveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/CustomSystem/EnemyHealtSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/CustomSystem/EnemyHealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Game/GameEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/PlayerSpaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/CustomSpaceships/EnemySpaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/CustomSpawners/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spawners/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/System.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Spaceships/Spaceship.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/WeaponSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/MovementSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/HealthSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/CustomSystem/PlayerHealthSystem.cs" />
       </list>
     </option>
   </component>
@@ -165,6 +195,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1633461713502" />
+    <state x="565" y="106" key="RiderGenerateDialog" timestamp="1633545963742">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="565" y="106" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1633545963742" />
     <state x="503" y="142" key="RollbackChangesDialog" timestamp="1633457182647">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

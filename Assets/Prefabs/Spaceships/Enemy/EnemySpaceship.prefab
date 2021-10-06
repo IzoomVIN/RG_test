@@ -40,12 +40,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590599124999967858}
-  - component: {fileID: 590599124999967757}
+  - component: {fileID: 901863052225293214}
   - component: {fileID: 590599124999967860}
   - component: {fileID: 590599124999967756}
   - component: {fileID: 590599124999967758}
-  - component: {fileID: 7280752513643992934}
+  - component: {fileID: 6207550471453077977}
   - component: {fileID: 821492182382988122}
+  - component: {fileID: 7280752513643992934}
   - component: {fileID: 5659333393718678246}
   m_Layer: 0
   m_Name: EnemySpaceship
@@ -53,7 +54,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &590599124999967858
 Transform:
   m_ObjectHideFlags: 0
@@ -70,7 +71,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &590599124999967757
+--- !u!114 &901863052225293214
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -79,12 +80,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 590599124999967857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4b0874c7d3308c4abf1c2bbfda5e8ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 5605cc839f326a44a914c0db0901b641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _shipController: {fileID: 590599124999967860}
   _movementSystem: {fileID: 590599124999967756}
   _weaponSystem: {fileID: 590599124999967758}
+  _healthSystem: {fileID: 6207550471453077977}
   _battleIdentity: 2
 --- !u!114 &590599124999967860
 MonoBehaviour:
@@ -127,6 +129,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _weapons:
   - {fileID: 590599125223560144}
+--- !u!114 &6207550471453077977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590599124999967857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3fb3b24bad057f4c9e7bf710ad08539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hpCount: 200
+  pointCost: 20
+--- !u!114 &821492182382988122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590599124999967857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8b8e6439e35f7478b42f7bf1c8f9cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _representation: {fileID: 1507206475712916754}
 --- !u!50 &7280752513643992934
 Rigidbody2D:
   serializedVersion: 4
@@ -148,19 +177,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &821492182382988122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590599124999967857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8b8e6439e35f7478b42f7bf1c8f9cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _representation: {fileID: 1507206475712916754}
 --- !u!61 &5659333393718678246
 BoxCollider2D:
   m_ObjectHideFlags: 0

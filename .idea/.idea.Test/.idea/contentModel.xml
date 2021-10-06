@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Gameplay" t="Include">
+            <e p="Game" t="Include">
+              <e p="GameEvents.cs" t="Include" />
+            </e>
             <e p="Helpers" t="Include">
               <e p="CustomHelpers" t="Include">
                 <e p="OutOfBorderDestructor.cs" t="Include" />
@@ -24,15 +27,30 @@
               <e p="ShipController.cs" t="Include" />
             </e>
             <e p="ShipSystems" t="Include">
+              <e p="CustomSystem" t="Include">
+                <e p="EnemyHealthSystem.cs" t="Include" />
+                <e p="PlayerHealthSystem.cs" t="Include" />
+              </e>
+              <e p="HealthSystem.cs" t="Include" />
               <e p="MovementSystem.cs" t="Include" />
               <e p="WeaponSystem.cs" t="Include" />
             </e>
             <e p="Spaceships" t="Include">
+              <e p="CustomSpaceships" t="Include">
+                <e p="EnemySpaceship.cs" t="Include" />
+                <e p="PlayerSpaceship.cs" t="Include" />
+              </e>
               <e p="ISpaceship.cs" t="Include" />
               <e p="Spaceship.cs" t="Include" />
             </e>
             <e p="Spawners" t="Include">
+              <e p="CustomSpawners" t="Include">
+                <e p="EnemySpawner.cs" t="Include" />
+              </e>
               <e p="Spawner.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="UIManager.cs" t="Include" />
             </e>
             <e p="Weapons" t="Include">
               <e p="IDamagable.cs" t="Include" />
