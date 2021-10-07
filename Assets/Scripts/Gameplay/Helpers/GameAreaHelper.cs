@@ -12,9 +12,9 @@ namespace Gameplay.Helpers
         private static float _rightBound;
         
 
-        static GameAreaHelper()
+        public static void Init(Camera camera)
         {
-            _camera = Camera.main;
+            _camera = camera;
         }
 
         

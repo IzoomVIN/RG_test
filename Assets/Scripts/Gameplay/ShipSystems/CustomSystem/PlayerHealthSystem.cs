@@ -10,7 +10,7 @@ namespace Gameplay.ShipSystems.CustomSystem
         IEnumerator Start()
         {
             if (Events == null) yield return null;
-            Events.UpdateHp.Invoke(CurrentHp);
+            Events.UpdateUIHpEvent.Invoke(CurrentHp);
         }
 
         public override void ApplyDamage(IDamageDealer damageDealer)
@@ -19,11 +19,12 @@ namespace Gameplay.ShipSystems.CustomSystem
             if (CurrentHp <= 0)
             {
                 CurrentHp = 0;
-                Events.GameOverEvent.Invoke();
+                Events.PlayerDeadEvent.Invoke();
+                Destroy(gameObject);
             }
             else
             {
-                Events.UpdateHp.Invoke(CurrentHp);
+                Events.UpdateUIHpEvent.Invoke(CurrentHp);
             }
         }
     }

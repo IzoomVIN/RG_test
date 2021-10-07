@@ -8,12 +8,21 @@ namespace Gameplay.Game
     public class FloatEvent : UnityEvent<float>
     {
     }
+    
+    [Serializable]
+    public class TwoFloatEvent : UnityEvent<float, float>
+    {
+    }
 
     public class GameEvents : MonoBehaviour
     {
         [Header("UI events")]
-        [SerializeField] public FloatEvent UpdatePoints;
-        [SerializeField] public FloatEvent UpdateHp;
-        [SerializeField] public UnityEvent GameOverEvent;
+        [SerializeField] public FloatEvent UpdateUIPointsEvent;
+        [SerializeField] public FloatEvent UpdateUIHpEvent;
+        [SerializeField] public TwoFloatEvent GameOverEvent;
+
+        [Header("Game events")] 
+        [SerializeField] public FloatEvent AddPointEvent;
+        [SerializeField] public UnityEvent PlayerDeadEvent;
     }
 }

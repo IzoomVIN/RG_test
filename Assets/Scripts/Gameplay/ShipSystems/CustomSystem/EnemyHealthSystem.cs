@@ -13,7 +13,7 @@ namespace Gameplay.ShipSystems.CustomSystem
             if (CurrentHp <= 0)
             {
                 CurrentHp = 0;
-                Events.UpdatePoints.Invoke(pointCost);
+                Events.AddPointEvent.Invoke(pointCost);
                 Destroy(gameObject);
             }
         }
