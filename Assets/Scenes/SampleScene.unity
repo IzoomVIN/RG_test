@@ -395,6 +395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner3
       objectReference: {fileID: 0}
+    - target: {fileID: 7139034145302338192, guid: c2e57a14d12b5bc4fba0a39e34406cab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7139034145302338193, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -464,7 +469,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 590599124999967857, guid: c2f7d29ccf40de44d81e56cc718f5e0e,
+      objectReference: {fileID: 5524676860963160406, guid: a4c470a297d66db479b7081aa14c8954,
         type: 3}
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
@@ -484,12 +489,12 @@ PrefabInstance:
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: _spawnPeriodRange.x
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: _spawnPeriodRange.y
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e57a14d12b5bc4fba0a39e34406cab, type: 3}
@@ -672,6 +677,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawner2
       objectReference: {fileID: 0}
+    - target: {fileID: 7139034145302338192, guid: c2e57a14d12b5bc4fba0a39e34406cab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7139034145302338193, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -741,7 +751,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 590599124999967857, guid: c2f7d29ccf40de44d81e56cc718f5e0e,
+      objectReference: {fileID: 4248632781642819592, guid: 8a86a221d73e6e54a9a21b786da04b84,
         type: 3}
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
@@ -1950,7 +1960,7 @@ PrefabInstance:
     - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
         type: 3}
       propertyPath: _weapons.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
         type: 3}
@@ -2070,7 +2080,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _object
       value: 
-      objectReference: {fileID: 590599124999967857, guid: c2f7d29ccf40de44d81e56cc718f5e0e,
+      objectReference: {fileID: 4119782035943215804, guid: f8ab3364c4cbd80439f5b807749d208f,
         type: 3}
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
@@ -2090,12 +2100,12 @@ PrefabInstance:
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: _spawnPeriodRange.x
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5725117669626460003, guid: c2e57a14d12b5bc4fba0a39e34406cab,
         type: 3}
       propertyPath: _spawnPeriodRange.y
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2e57a14d12b5bc4fba0a39e34406cab, type: 3}

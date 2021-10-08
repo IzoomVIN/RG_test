@@ -23,17 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8db167c1-27a3-4f11-9556-c0358530f666" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/CustomWeapons/LaserWeapon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/CustomWeapons/RocketWeapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/Base.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/Base/EnemyLateralMoveSpaceship.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/Base/EnemyLateralMoveSpaceship.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemyLateralMoveSpaceshipWithLaser Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemyLateralMoveSpaceshipWithLaser Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemyLateralMoveSpaceshipWithRocket Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemyLateralMoveSpaceshipWithRocket Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceshipWithLaser Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceshipWithLaser Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipControllerLateral.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipControllerLateral.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Weapons/LaserGun.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Weapons/LaserGun.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/Base/EnemySpaceship.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/EnemySpaceship.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Spaceships/Enemy/Base/EnemySpaceship.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/UI/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/LaserBeam.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +79,6 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/CustomWeapon/LaserGun.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipSystems/FireSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamagable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/IDamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/ShipController.cs" />
@@ -107,6 +114,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/Weapons/Projectiles/CustomProjectiles/Rocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay/ShipControllers/CustomControllers/EnemyShipControllerLateral.cs" />
       </list>
     </option>
   </component>
@@ -196,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1633461713502" />
-    <state x="565" y="106" key="RiderGenerateDialog" timestamp="1633644079353">
+    <state x="565" y="106" key="RiderGenerateDialog" timestamp="1633702966738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="565" y="106" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1633644079353" />
+    <state x="565" y="106" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1633702966738" />
     <state x="503" y="142" key="RollbackChangesDialog" timestamp="1633457182647">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

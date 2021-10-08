@@ -7,11 +7,9 @@ using UnityEngine;
 public class EnemyShipController : ShipController
 {
 
-    [SerializeField]
-    private Vector2 _fireDelay;
-
+    [SerializeField] private Vector2 _fireDelay;
     private bool _fire = true;
-    
+
     protected override void ProcessHandling(MovementSystem movementSystem)
     {
         movementSystem.LongitudinalMovement(Time.deltaTime);

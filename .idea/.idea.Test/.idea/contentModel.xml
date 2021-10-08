@@ -23,6 +23,7 @@
             <e p="ShipControllers" t="Include">
               <e p="CustomControllers" t="Include">
                 <e p="EnemyShipController.cs" t="Include" />
+                <e p="EnemyShipControllerLateral.cs" t="Include" />
                 <e p="PlayerShipController.cs" t="Include" />
               </e>
               <e p="ShipController.cs" t="Include" />
