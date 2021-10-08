@@ -49,8 +49,8 @@ namespace Gameplay.UI
             gamePanel.SetActive(false);
 
             var delta = effectTime;
-            var step = 0.1f;
-            while (delta >= 0)
+            var step = 0.2f;
+            while (Time.timeScale != 0)
             {
                 var timeScale = 1 - (effectTime - delta) / effectTime;
                 if (timeScale < 0) timeScale = 0;

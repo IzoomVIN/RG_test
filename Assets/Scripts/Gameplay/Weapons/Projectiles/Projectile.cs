@@ -20,15 +20,13 @@ namespace Gameplay.Weapons.Projectiles
         public UnitBattleIdentity BattleIdentity => _battleIdentity;
         public float Damage => _damage;
 
-        
-
         public void Init(UnitBattleIdentity battleIdentity)
         {
             _battleIdentity = battleIdentity;
         }
         
 
-        private void Update()
+        protected virtual void FixedUpdate()
         {
             Move(_speed);
         }

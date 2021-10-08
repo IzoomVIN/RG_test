@@ -40,10 +40,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2543782742246006012}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56d9649a25821114d9054631b7d2db95, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c24d81aa97ec9245b0a987b1beb1c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _barrel: {fileID: 2543782742246006013}
+  _cooldown: 0.3
   _projectile: {fileID: 3274570344616576306, guid: a0016ad46649e8c409ee27a3ba0dfdd4,
     type: 3}
-  _barrel: {fileID: 2543782742246006013}
-  _cooldown: 0.1

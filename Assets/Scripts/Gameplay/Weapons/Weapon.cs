@@ -4,21 +4,14 @@ using UnityEngine;
 
 namespace Gameplay.Weapons
 {
-    public class Weapon : MonoBehaviour
+    public abstract class Weapon : MonoBehaviour
     {
 
-        [SerializeField]
-        private Projectile _projectile;
-
-        [SerializeField]
-        private Transform _barrel;
-
-        [SerializeField]
-        private float _cooldown;
-
-
+        [SerializeField] private protected Transform _barrel;
+        [SerializeField] private float _cooldown;
+        
         private bool _readyToFire = true;
-        private UnitBattleIdentity _battleIdentity;
+        private protected UnitBattleIdentity _battleIdentity;
         
         
         
@@ -33,11 +26,9 @@ namespace Gameplay.Weapons
             if (!_readyToFire)
                 return;
             
-            var proj = Instantiate(_projectile, _barrel.position, _barrel.rotation);
-            proj.Init(_battleIdentity);
+            InitProjectile();
             StartCoroutine(Reload(_cooldown));
         }
-
 
         private IEnumerator Reload(float cooldown)
         {
@@ -46,5 +37,6 @@ namespace Gameplay.Weapons
             _readyToFire = true;
         }
 
+        protected abstract void InitProjectile();
     }
 }

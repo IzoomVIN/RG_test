@@ -54,11 +54,16 @@
               <e p="UIManager.cs" t="Include" />
             </e>
             <e p="Weapons" t="Include">
+              <e p="CustomWeapons" t="Include">
+                <e p="LaserWeapon.cs" t="Include" />
+                <e p="RocketWeapon.cs" t="Include" />
+              </e>
               <e p="IDamagable.cs" t="Include" />
               <e p="IDamageDealer.cs" t="Include" />
               <e p="Projectiles" t="Include">
                 <e p="CustomProjectiles" t="Include">
                   <e p="LaserBeam.cs" t="Include" />
+                  <e p="Rocket.cs" t="Include" />
                 </e>
                 <e p="Projectile.cs" t="Include" />
               </e>

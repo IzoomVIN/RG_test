@@ -247,6 +247,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203025535}
   m_CullTransparentMesh: 0
+--- !u!114 &245465926 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6910651213495973518, guid: db160e65d2bc1c043828d51dfbc352da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6910651213141950738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c24d81aa97ec9245b0a987b1beb1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &352694671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,6 +1487,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496685116}
   m_CullTransparentMesh: 0
+--- !u!114 &1581116181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8983208217998367586, guid: db160e65d2bc1c043828d51dfbc352da,
+    type: 3}
+  m_PrefabInstance: {fileID: 6910651213141950738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c24d81aa97ec9245b0a987b1beb1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1582930924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1850,7 +1874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420031}
   events: {fileID: 2147392311}
-  effectDurationInSec: 3
+  effectDurationInSec: 1.5
 --- !u!1001 &6910651213141950738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1918,6 +1942,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6910651213156479314, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _lateralMovementSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _weapons.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _weapons.Array.data[0]
+      value: 
+      objectReference: {fileID: 245465926}
+    - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _weapons.Array.data[1]
+      value: 
+      objectReference: {fileID: 1581116181}
+    - target: {fileID: 6910651213156479312, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _weapons.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6910651213495973518, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _cooldown
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8983208217998367586, guid: db160e65d2bc1c043828d51dfbc352da,
+        type: 3}
+      propertyPath: _cooldown
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8266426889075751021, guid: db160e65d2bc1c043828d51dfbc352da,
         type: 3}
       propertyPath: gameEvents
@@ -1926,7 +1985,7 @@ PrefabInstance:
     - target: {fileID: 7414776704688499254, guid: db160e65d2bc1c043828d51dfbc352da,
         type: 3}
       propertyPath: hpCount
-      value: 20
+      value: 600
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db160e65d2bc1c043828d51dfbc352da, type: 3}
