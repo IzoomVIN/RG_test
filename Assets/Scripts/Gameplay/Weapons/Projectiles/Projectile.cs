@@ -26,7 +26,7 @@ namespace Gameplay.Weapons.Projectiles
         }
         
 
-        protected virtual void FixedUpdate()
+        protected void FixedUpdate()
         {
             Move(_speed);
         }

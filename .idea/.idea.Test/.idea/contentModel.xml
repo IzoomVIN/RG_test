@@ -8,6 +8,22 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Gameplay" t="Include">
+            <e p="Bonuses" t="Include">
+              <e p="Bonus.cs" t="Include" />
+              <e p="BonusManager.cs" t="Include" />
+              <e p="CustomBonuses" t="Include">
+                <e p="HealthBonus" t="Include">
+                  <e p="HealthBonus.cs" t="Include" />
+                  <e p="IHealable.cs" t="Include" />
+                  <e p="IHealDealer.cs" t="Include" />
+                </e>
+                <e p="SpeedBonus" t="Include">
+                  <e p="ISpeedable.cs" t="Include" />
+                  <e p="ISpeedDealer.cs" t="Include" />
+                  <e p="SpeedBonus.cs" t="Include" />
+                </e>
+              </e>
+            </e>
             <e p="Game" t="Include">
               <e p="GameEvents.cs" t="Include" />
               <e p="GameManager.cs" t="Include" />

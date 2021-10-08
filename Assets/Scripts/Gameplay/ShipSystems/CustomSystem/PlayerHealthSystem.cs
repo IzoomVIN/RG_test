@@ -1,11 +1,12 @@
 using System.Collections;
+using Gameplay.Bonuses.CustomBonuses.HealthBonus;
 using Gameplay.Game;
 using Gameplay.Weapons;
 using UnityEngine;
 
 namespace Gameplay.ShipSystems.CustomSystem
 {
-    public class PlayerHealthSystem : HealthSystem
+    public class PlayerHealthSystem : HealthSystem, IHealable
     {
         IEnumerator Start()
         {
@@ -26,6 +27,14 @@ namespace Gameplay.ShipSystems.CustomSystem
             {
                 Events.UpdateUIHpEvent.Invoke(CurrentHp);
             }
+        }
+
+        public void ApplyHealth(IHealDealer healDealer)
+        {
+            CurrentHp += healDealer.Health;
+            
+            if (CurrentHp > hpCount) CurrentHp = hpCount;
+            Events.UpdateUIHpEvent.Invoke(CurrentHp);
         }
     }
 }

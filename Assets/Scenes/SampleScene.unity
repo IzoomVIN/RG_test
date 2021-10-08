@@ -1757,6 +1757,7 @@ GameObject:
   - component: {fileID: 2147392310}
   - component: {fileID: 2147392312}
   - component: {fileID: 2147392311}
+  - component: {fileID: 2147392313}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1870,6 +1871,22 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  BonusEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2147392313}
+        m_MethodName: InstantiateBonus
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: Gameplay.Game.BonusEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!114 &2147392312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,6 +1902,23 @@ MonoBehaviour:
   camera: {fileID: 519420031}
   events: {fileID: 2147392311}
   effectDurationInSec: 1.5
+--- !u!114 &2147392313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147392309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84e69694fb34aa84db818b329c73100e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  probability: 0.563
+  anchorIdentity: 1
+  bonuses:
+  - {fileID: 3284332300976239919, guid: 4029ac2e28a35544c9e51707fb7a0faf, type: 3}
+  - {fileID: 3023695022964769870, guid: abd39d12aee82654796c4f86064f0812, type: 3}
 --- !u!1001 &6910651213141950738
 PrefabInstance:
   m_ObjectHideFlags: 0

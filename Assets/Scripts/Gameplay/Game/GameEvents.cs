@@ -13,6 +13,11 @@ namespace Gameplay.Game
     public class TwoFloatEvent : UnityEvent<float, float>
     {
     }
+    
+    [Serializable]
+    public class BonusEvent : UnityEvent<Vector3, Quaternion>
+    {
+    }
 
     public class GameEvents : MonoBehaviour
     {
@@ -24,5 +29,6 @@ namespace Gameplay.Game
         [Header("Game events")] 
         [SerializeField] public FloatEvent AddPointEvent;
         [SerializeField] public UnityEvent PlayerDeadEvent;
+        [SerializeField] public BonusEvent BonusEvent;
     }
 }

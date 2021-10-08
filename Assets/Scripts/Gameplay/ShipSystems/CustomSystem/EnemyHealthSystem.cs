@@ -14,6 +14,7 @@ namespace Gameplay.ShipSystems.CustomSystem
             {
                 CurrentHp = 0;
                 Events.AddPointEvent.Invoke(pointCost);
+                Events.BonusEvent.Invoke(transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }

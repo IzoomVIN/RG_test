@@ -1,19 +1,25 @@
 ﻿using System.Collections;
+using Gameplay.Bonuses.CustomBonuses.SpeedBonus;
 using Gameplay.Weapons.Projectiles;
 using UnityEngine;
 
 namespace Gameplay.Weapons
 {
-    public abstract class Weapon : MonoBehaviour
+    public abstract class Weapon : MonoBehaviour, ISpeedable
     {
 
         [SerializeField] private protected Transform _barrel;
         [SerializeField] private float _cooldown;
-        
+
         private bool _readyToFire = true;
         private protected UnitBattleIdentity _battleIdentity;
+
+        public UnitBattleIdentity BattleIdentity => _battleIdentity;
         
-        
+        public void ApplySpeed(ISpeedDealer speedDealer)
+        {
+            _cooldown -= _cooldown*speedDealer.Speed;
+        }
         
         public void Init(UnitBattleIdentity battleIdentity)
         {
